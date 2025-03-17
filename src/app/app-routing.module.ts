@@ -80,14 +80,10 @@ const routes: Routes = [
     path: 'progress-bar',
     loadChildren: () => import('./pages/progress-bar/progress-bar.module').then( m => m.ProgressBarPageModule)
   },
-<<<<<<< HEAD
   {
     path: '**',
     redirectTo:'/inicio'
   },
-=======
->>>>>>> 260a420b309bbbd98b567b81a1fca054245b0f87
-  
   
 ];
 
