@@ -75,6 +75,11 @@ export class InicioPage implements OnInit {
       redirectTo: '/input',
     },
     {
+      icon: 'file-tray-stacked-outline',
+      name: 'Item-sliding',
+      redirectTo: '/item-sliding',
+    },
+    {
       icon: 'list',
       name: 'List',
       redirectTo: '/list',
@@ -88,6 +93,11 @@ export class InicioPage implements OnInit {
       icon: 'refresh-circle',
       name: 'Loading',
       redirectTo: '/loading',
+    },
+    {
+      icon: 'menu-outline',
+      name: 'Menu',
+      redirectTo: '/menu',
     },
     {
       icon: 'create',
@@ -115,14 +125,24 @@ export class InicioPage implements OnInit {
       redirectTo: '/searchbar',
     },
     {
+      icon: 'browsers-outline',
+      name: 'Segment',
+      redirectTo: '/segment',
+    },
+    {
+      icon: 'laptop-outline',
+      name: 'Split-Pane',
+      redirectTo: '/splitpane',
+    },
+    {
       icon: 'share',
-      name: 'Share',
-      redirectTo: '/share',
+      name: 'Tabs',
+      redirectTo: '/tabs',
     },
     {
       icon: 'shuffle',
-      name: 'Skeleton Text',
-      redirectTo: '/skeleton-text',
+      name: 'Toast',
+      redirectTo: '/toast',
     }
   ];
   constructor() { }
