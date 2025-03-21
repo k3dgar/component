@@ -99,7 +99,8 @@ const routes: Routes = [
   {
     path: 'segment',
     loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
-  },  {
+  },
+  {
     path: 'splitpane',
     loadChildren: () => import('./pages/splitpane/splitpane.module').then( m => m.SplitpanePageModule)
   },
@@ -111,10 +112,14 @@ const routes: Routes = [
     path: 'toast',
     loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
   },
+  {
+    path: '**',
+    redirectTo: 'inicio'
+  },
 
 
 
-  
+
 ];
 
 @NgModule({
